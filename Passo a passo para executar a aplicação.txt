@@ -1,0 +1,2 @@
+1º - Abra o arquivo "AppRoute66.sln" no Visual Studio.
+2º - Agora só basta você iniciar a aplicação.

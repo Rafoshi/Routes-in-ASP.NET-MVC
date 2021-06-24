@@ -1,0 +1,39 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Área do Aluno</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <style>
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            margin-top: 15vh;
+        }
+
+        a,a:hover {
+            color: #ececec;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Área do aluno</h1>
+
+        <button type="button" class="btn btn-primary">@Html.ActionLink("Início","Index","Home")</button>
+    </main>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+</body>
+</html>

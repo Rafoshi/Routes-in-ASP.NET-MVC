@@ -1,0 +1,87 @@
+﻿#PaperPlane {
+    animation: slide-tl 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite alternate-reverse both;
+}
+
+#Magnifying {
+    animation: Mag 10s ease-in-out infinite alternate both;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#SoundEffects {
+    animation: Sound 1s ease-in-out infinite alternate both;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+#Eyesbrowns {
+    animation: MenHair 1s ease-in-out infinite alternate-reverse both;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#Vector_251 {
+    animation: slide-top 0.5s infinite alternate-reverse both;
+}
+
+#Vector_253 {
+    animation: slide-top 0.5s 0.4s infinite alternate-reverse both;
+}
+
+#Vector_252 {
+    animation: slide-top 0.5s 0.7s infinite alternate-reverse both;
+}
+
+@keyframes MenHair {
+    from,to {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-1px);
+    }
+}
+
+@keyframes Sound {
+    from,to {
+        -webkit-transform: scale(0.7);
+        transform: scale(0.7);
+    }
+
+    50% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes Mag {
+    from,to {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.8);
+    }
+
+    50% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes slide-tl {
+    0% {
+        transform: translateY(0) translateX(0);
+    }
+
+    100% {
+        transform: translateY(-100px) translateX(-100px);
+    }
+}
+
+
+@keyframes slide-top {
+    0% {
+        transform: translateY(15);
+    }
+
+    100% {
+        transform: translateY(-5px);
+    }
+}

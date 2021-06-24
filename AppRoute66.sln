@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppRoute66", "AppRoute66\AppRoute66.csproj", "{8FEFF85F-9B40-46DC-852E-15004B529E7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FEFF85F-9B40-46DC-852E-15004B529E7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FEFF85F-9B40-46DC-852E-15004B529E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FEFF85F-9B40-46DC-852E-15004B529E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FEFF85F-9B40-46DC-852E-15004B529E7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70A478C6-C55E-4C27-9041-C665C94BBD97}
+	EndGlobalSection
+EndGlobal
